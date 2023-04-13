@@ -1,0 +1,2198 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_746b4c4811c09da9f64ff1b270b1232d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_746b4c4811c09da9f64ff1b270b1232d" ></div>
+        
+</body>
+<script>    
+    
+            var map_746b4c4811c09da9f64ff1b270b1232d = L.map(
+                "map_746b4c4811c09da9f64ff1b270b1232d",
+                {
+                    center: [43.0, 12.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1c722f130c55b55f75355435effd3ee7 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var marker_09f4a16d06b7d586226613d2de0e22d8 = L.marker(
+                [45.12, 7.74],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_5e0bf787636557d6b6f4b823c9a1adca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_09f4a16d06b7d586226613d2de0e22d8.setIcon(icon_5e0bf787636557d6b6f4b823c9a1adca);
+        
+    
+        var popup_1b5cd451420e2208cd7c1689a1594e9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_feaa6e12ca849228a454f4d56a29bb4d = $(`<div id="html_feaa6e12ca849228a454f4d56a29bb4d" style="width: 100.0%; height: 100.0%;">unito</div>`)[0];
+                popup_1b5cd451420e2208cd7c1689a1594e9f.setContent(html_feaa6e12ca849228a454f4d56a29bb4d);
+            
+        
+
+        marker_09f4a16d06b7d586226613d2de0e22d8.bindPopup(popup_1b5cd451420e2208cd7c1689a1594e9f)
+        ;
+
+        
+    
+    
+            marker_09f4a16d06b7d586226613d2de0e22d8.bindTooltip(
+                `<div>
+                     Università degli studi di Torino
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d54a3d5c957cdb351ff51ca761b0d750 = L.marker(
+                [45.12, 7.75],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_e0e47347f2c45b9ff8fe7bb05e9be3b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_d54a3d5c957cdb351ff51ca761b0d750.setIcon(icon_e0e47347f2c45b9ff8fe7bb05e9be3b0);
+        
+    
+        var popup_2be350a84f415f3b3de27f757fea95ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_155f438505a01479dcffcc044aac7087 = $(`<div id="html_155f438505a01479dcffcc044aac7087" style="width: 100.0%; height: 100.0%;">polito</div>`)[0];
+                popup_2be350a84f415f3b3de27f757fea95ec.setContent(html_155f438505a01479dcffcc044aac7087);
+            
+        
+
+        marker_d54a3d5c957cdb351ff51ca761b0d750.bindPopup(popup_2be350a84f415f3b3de27f757fea95ec)
+        ;
+
+        
+    
+    
+            marker_d54a3d5c957cdb351ff51ca761b0d750.bindTooltip(
+                `<div>
+                     Politecnico di Torino
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_20de1adc72d136420c3241f3935be878 = L.marker(
+                [45.32, 8.42],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_07a78a25a3209351d7492bb57227a227 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "location-pin-slash", "iconColor": "white", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_20de1adc72d136420c3241f3935be878.setIcon(icon_07a78a25a3209351d7492bb57227a227);
+        
+    
+        var popup_ab30e7d7e83f08f559cb321044ac310e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_633a77ef0f85e9d361d364a7f409608a = $(`<div id="html_633a77ef0f85e9d361d364a7f409608a" style="width: 100.0%; height: 100.0%;">uniupo</div>`)[0];
+                popup_ab30e7d7e83f08f559cb321044ac310e.setContent(html_633a77ef0f85e9d361d364a7f409608a);
+            
+        
+
+        marker_20de1adc72d136420c3241f3935be878.bindPopup(popup_ab30e7d7e83f08f559cb321044ac310e)
+        ;
+
+        
+    
+    
+            marker_20de1adc72d136420c3241f3935be878.bindTooltip(
+                `<div>
+                     Università degli studi del Piemonte orientale "Amedeo Avogadro"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b99b08838f5c20b22b681de3e731d26f = L.marker(
+                [44.41, 8.95],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_b446dea33eb06337d50f78403b71bd9e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_b99b08838f5c20b22b681de3e731d26f.setIcon(icon_b446dea33eb06337d50f78403b71bd9e);
+        
+    
+        var popup_320a87adf61d7df3145eef580fdd8333 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9430a1454c473d09a5c4a4c421b1b8fa = $(`<div id="html_9430a1454c473d09a5c4a4c421b1b8fa" style="width: 100.0%; height: 100.0%;">unige</div>`)[0];
+                popup_320a87adf61d7df3145eef580fdd8333.setContent(html_9430a1454c473d09a5c4a4c421b1b8fa);
+            
+        
+
+        marker_b99b08838f5c20b22b681de3e731d26f.bindPopup(popup_320a87adf61d7df3145eef580fdd8333)
+        ;
+
+        
+    
+    
+            marker_b99b08838f5c20b22b681de3e731d26f.bindTooltip(
+                `<div>
+                     Università degli studi di Genova
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6d7bc8d7e9a0782369d546bf1de9a726 = L.marker(
+                [45.82, 8.83],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_eefc50e94f9844694c385a1ba96ed293 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_6d7bc8d7e9a0782369d546bf1de9a726.setIcon(icon_eefc50e94f9844694c385a1ba96ed293);
+        
+    
+        var popup_485542abc1fe1a8f6203dc5da643a98c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28e126a7d66ea8741c702169609ed415 = $(`<div id="html_28e126a7d66ea8741c702169609ed415" style="width: 100.0%; height: 100.0%;">uninsubria</div>`)[0];
+                popup_485542abc1fe1a8f6203dc5da643a98c.setContent(html_28e126a7d66ea8741c702169609ed415);
+            
+        
+
+        marker_6d7bc8d7e9a0782369d546bf1de9a726.bindPopup(popup_485542abc1fe1a8f6203dc5da643a98c)
+        ;
+
+        
+    
+    
+            marker_6d7bc8d7e9a0782369d546bf1de9a726.bindTooltip(
+                `<div>
+                     Università degli Studi dell' Insubria
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_22232bb09883bf106d1aca14fbbead98 = L.marker(
+                [45.46, 9.19],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_fc105cbc769e5bcfa0fdddc0264f26af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "database", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_22232bb09883bf106d1aca14fbbead98.setIcon(icon_fc105cbc769e5bcfa0fdddc0264f26af);
+        
+    
+        var popup_a79098a07214cb583070742a7ee837ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e3b5830178356eff69ac73b8ba92a78 = $(`<div id="html_4e3b5830178356eff69ac73b8ba92a78" style="width: 100.0%; height: 100.0%;">unimi</div>`)[0];
+                popup_a79098a07214cb583070742a7ee837ae.setContent(html_4e3b5830178356eff69ac73b8ba92a78);
+            
+        
+
+        marker_22232bb09883bf106d1aca14fbbead98.bindPopup(popup_a79098a07214cb583070742a7ee837ae)
+        ;
+
+        
+    
+    
+            marker_22232bb09883bf106d1aca14fbbead98.bindTooltip(
+                `<div>
+                     Università degli Studi di Milano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f2c95df60b8261dc6f1893c97a7db6a7 = L.marker(
+                [45.37, 9.2],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_97a685ad2c583931c8cbfd08ae0c0116 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_f2c95df60b8261dc6f1893c97a7db6a7.setIcon(icon_97a685ad2c583931c8cbfd08ae0c0116);
+        
+    
+        var popup_8f31066c4b9edaf9ee3cb855e5f86705 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea2fffec74b2d8aacf0bd49a8c5da45c = $(`<div id="html_ea2fffec74b2d8aacf0bd49a8c5da45c" style="width: 100.0%; height: 100.0%;">polimi</div>`)[0];
+                popup_8f31066c4b9edaf9ee3cb855e5f86705.setContent(html_ea2fffec74b2d8aacf0bd49a8c5da45c);
+            
+        
+
+        marker_f2c95df60b8261dc6f1893c97a7db6a7.bindPopup(popup_8f31066c4b9edaf9ee3cb855e5f86705)
+        ;
+
+        
+    
+    
+            marker_f2c95df60b8261dc6f1893c97a7db6a7.bindTooltip(
+                `<div>
+                     Politecnico di Milano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1d803828b4f2ebe80a1abced2db98281 = L.marker(
+                [45.48, 9.21],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_897f43a002af2abf7d6fb1a364e4c804 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_1d803828b4f2ebe80a1abced2db98281.setIcon(icon_897f43a002af2abf7d6fb1a364e4c804);
+        
+    
+        var popup_65fa78503caf436196f5462342042594 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b75bc7c106b2db98e352dedf0572759 = $(`<div id="html_2b75bc7c106b2db98e352dedf0572759" style="width: 100.0%; height: 100.0%;">unimib</div>`)[0];
+                popup_65fa78503caf436196f5462342042594.setContent(html_2b75bc7c106b2db98e352dedf0572759);
+            
+        
+
+        marker_1d803828b4f2ebe80a1abced2db98281.bindPopup(popup_65fa78503caf436196f5462342042594)
+        ;
+
+        
+    
+    
+            marker_1d803828b4f2ebe80a1abced2db98281.bindTooltip(
+                `<div>
+                     Università degli studi di Milano-Bicocca
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1043d955500bcd026cff2607d9f5bc81 = L.marker(
+                [45.7, 9.68],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_ca419f73bf503f04ec45c8472f8469da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_1043d955500bcd026cff2607d9f5bc81.setIcon(icon_ca419f73bf503f04ec45c8472f8469da);
+        
+    
+        var popup_0b4c95465ef36e8271ce1c9a850861b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7fb811d2688b48a5c88549745e67fd63 = $(`<div id="html_7fb811d2688b48a5c88549745e67fd63" style="width: 100.0%; height: 100.0%;">unibg</div>`)[0];
+                popup_0b4c95465ef36e8271ce1c9a850861b5.setContent(html_7fb811d2688b48a5c88549745e67fd63);
+            
+        
+
+        marker_1043d955500bcd026cff2607d9f5bc81.bindPopup(popup_0b4c95465ef36e8271ce1c9a850861b5)
+        ;
+
+        
+    
+    
+            marker_1043d955500bcd026cff2607d9f5bc81.bindTooltip(
+                `<div>
+                     Università degli Studi di Bergamo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0ad841154b6216098d8d9072985ffb6e = L.marker(
+                [45.54, 10.21],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_1e61e88f375636014208ae26251dc153 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_0ad841154b6216098d8d9072985ffb6e.setIcon(icon_1e61e88f375636014208ae26251dc153);
+        
+    
+        var popup_8aab03432a3f4c094bd9b2951733d4ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6da933dff7f1d39bd37fc53104310a9d = $(`<div id="html_6da933dff7f1d39bd37fc53104310a9d" style="width: 100.0%; height: 100.0%;">unibs</div>`)[0];
+                popup_8aab03432a3f4c094bd9b2951733d4ab.setContent(html_6da933dff7f1d39bd37fc53104310a9d);
+            
+        
+
+        marker_0ad841154b6216098d8d9072985ffb6e.bindPopup(popup_8aab03432a3f4c094bd9b2951733d4ab)
+        ;
+
+        
+    
+    
+            marker_0ad841154b6216098d8d9072985ffb6e.bindTooltip(
+                `<div>
+                     Università degli Studi di Brescia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a3f42548830e9b0b2b5ca82bbf26925 = L.marker(
+                [45.19, 9.16],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_1e18ef662fb2253f66e132786148037e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_5a3f42548830e9b0b2b5ca82bbf26925.setIcon(icon_1e18ef662fb2253f66e132786148037e);
+        
+    
+        var popup_eca7c037149e637d2f994870056ddd98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e8f8773ec5d939e913ebb6a19b3020a = $(`<div id="html_9e8f8773ec5d939e913ebb6a19b3020a" style="width: 100.0%; height: 100.0%;">unipv</div>`)[0];
+                popup_eca7c037149e637d2f994870056ddd98.setContent(html_9e8f8773ec5d939e913ebb6a19b3020a);
+            
+        
+
+        marker_5a3f42548830e9b0b2b5ca82bbf26925.bindPopup(popup_eca7c037149e637d2f994870056ddd98)
+        ;
+
+        
+    
+    
+            marker_5a3f42548830e9b0b2b5ca82bbf26925.bindTooltip(
+                `<div>
+                     Università degli Studi di Pavia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_384929ccdf6fab433c7cb6707d585007 = L.marker(
+                [46.07, 11.12],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_22a12405e214739773340e20efa6acff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_384929ccdf6fab433c7cb6707d585007.setIcon(icon_22a12405e214739773340e20efa6acff);
+        
+    
+        var popup_47e184e242e4ddbc324bcad67bb25083 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0880b7d46fe4e88921db369e8067072c = $(`<div id="html_0880b7d46fe4e88921db369e8067072c" style="width: 100.0%; height: 100.0%;">unitn</div>`)[0];
+                popup_47e184e242e4ddbc324bcad67bb25083.setContent(html_0880b7d46fe4e88921db369e8067072c);
+            
+        
+
+        marker_384929ccdf6fab433c7cb6707d585007.bindPopup(popup_47e184e242e4ddbc324bcad67bb25083)
+        ;
+
+        
+    
+    
+            marker_384929ccdf6fab433c7cb6707d585007.bindTooltip(
+                `<div>
+                     Università degli Studi di Trento
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_114e55bb6081bdf8fb13277e0ec2823d = L.marker(
+                [45.44, 10.99],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_996731fcd3ee44c6809a83999f1d6735 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_114e55bb6081bdf8fb13277e0ec2823d.setIcon(icon_996731fcd3ee44c6809a83999f1d6735);
+        
+    
+        var popup_e53c55f77cd5d167cc90e3f3357cd198 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_592cfa5401f9f0b309d396224ff3176a = $(`<div id="html_592cfa5401f9f0b309d396224ff3176a" style="width: 100.0%; height: 100.0%;">univr</div>`)[0];
+                popup_e53c55f77cd5d167cc90e3f3357cd198.setContent(html_592cfa5401f9f0b309d396224ff3176a);
+            
+        
+
+        marker_114e55bb6081bdf8fb13277e0ec2823d.bindPopup(popup_e53c55f77cd5d167cc90e3f3357cd198)
+        ;
+
+        
+    
+    
+            marker_114e55bb6081bdf8fb13277e0ec2823d.bindTooltip(
+                `<div>
+                     Università degli Studi di Verona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2fb54136b16303a3aa38c9c787cda059 = L.marker(
+                [45.44, 12.32],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_b0e60a65a80529486ac226cee076157d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_2fb54136b16303a3aa38c9c787cda059.setIcon(icon_b0e60a65a80529486ac226cee076157d);
+        
+    
+        var popup_e31728a4ae5bc9e2e3ef398ed781f476 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df59057cee6329434c7b931fa6fa968a = $(`<div id="html_df59057cee6329434c7b931fa6fa968a" style="width: 100.0%; height: 100.0%;">unive</div>`)[0];
+                popup_e31728a4ae5bc9e2e3ef398ed781f476.setContent(html_df59057cee6329434c7b931fa6fa968a);
+            
+        
+
+        marker_2fb54136b16303a3aa38c9c787cda059.bindPopup(popup_e31728a4ae5bc9e2e3ef398ed781f476)
+        ;
+
+        
+    
+    
+            marker_2fb54136b16303a3aa38c9c787cda059.bindTooltip(
+                `<div>
+                     Università degli studi Ca' Foscari di Venezia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_08bf0bf3050e9974fa287279ea00ed25 = L.marker(
+                [45.46, 12.34],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_b7b01aa5124524784d1aeedd48dfbe84 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "location-pin-slash", "iconColor": "white", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_08bf0bf3050e9974fa287279ea00ed25.setIcon(icon_b7b01aa5124524784d1aeedd48dfbe84);
+        
+    
+        var popup_8e5da432867319d8aa2f5125403a5035 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5953ec314245df38003f4d1cc1736b0 = $(`<div id="html_f5953ec314245df38003f4d1cc1736b0" style="width: 100.0%; height: 100.0%;">iuav</div>`)[0];
+                popup_8e5da432867319d8aa2f5125403a5035.setContent(html_f5953ec314245df38003f4d1cc1736b0);
+            
+        
+
+        marker_08bf0bf3050e9974fa287279ea00ed25.bindPopup(popup_8e5da432867319d8aa2f5125403a5035)
+        ;
+
+        
+    
+    
+            marker_08bf0bf3050e9974fa287279ea00ed25.bindTooltip(
+                `<div>
+                     Università Iuav di Venezia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fcf3dc10b03e3583ab4361f8735d8ddd = L.marker(
+                [45.41, 11.88],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_d4e5acf902708de0e7c265e53cec7028 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "database", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_fcf3dc10b03e3583ab4361f8735d8ddd.setIcon(icon_d4e5acf902708de0e7c265e53cec7028);
+        
+    
+        var popup_3a1451ca5b592ba886b1e7740af24c5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_684e8a27e56370ef6fab103ed33869da = $(`<div id="html_684e8a27e56370ef6fab103ed33869da" style="width: 100.0%; height: 100.0%;">unipd</div>`)[0];
+                popup_3a1451ca5b592ba886b1e7740af24c5d.setContent(html_684e8a27e56370ef6fab103ed33869da);
+            
+        
+
+        marker_fcf3dc10b03e3583ab4361f8735d8ddd.bindPopup(popup_3a1451ca5b592ba886b1e7740af24c5d)
+        ;
+
+        
+    
+    
+            marker_fcf3dc10b03e3583ab4361f8735d8ddd.bindTooltip(
+                `<div>
+                     Università degli Studi di Padova
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dd6f63df1445ae26e33300271ae0296c = L.marker(
+                [46.07, 13.23],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_ae33c63b75747286476e9690a92d3a01 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_dd6f63df1445ae26e33300271ae0296c.setIcon(icon_ae33c63b75747286476e9690a92d3a01);
+        
+    
+        var popup_8ba2d26867ec97bac4772736c48ea01c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f5f2fa8bcde2531709269f9bbfe3c57 = $(`<div id="html_7f5f2fa8bcde2531709269f9bbfe3c57" style="width: 100.0%; height: 100.0%;">uniud</div>`)[0];
+                popup_8ba2d26867ec97bac4772736c48ea01c.setContent(html_7f5f2fa8bcde2531709269f9bbfe3c57);
+            
+        
+
+        marker_dd6f63df1445ae26e33300271ae0296c.bindPopup(popup_8ba2d26867ec97bac4772736c48ea01c)
+        ;
+
+        
+    
+    
+            marker_dd6f63df1445ae26e33300271ae0296c.bindTooltip(
+                `<div>
+                     Università degli Studi di Udine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e294a895e90026c9a44016ad6352fdf5 = L.marker(
+                [45.65, 13.78],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_7c65cb34254a2c9a8364472faa8fd47b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "location-pin-slash", "iconColor": "white", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_e294a895e90026c9a44016ad6352fdf5.setIcon(icon_7c65cb34254a2c9a8364472faa8fd47b);
+        
+    
+        var popup_94a032f4df51bdda52b2e3876b14dc98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4726e4f86ac7f77c151cfaccb9e9c54 = $(`<div id="html_f4726e4f86ac7f77c151cfaccb9e9c54" style="width: 100.0%; height: 100.0%;">units</div>`)[0];
+                popup_94a032f4df51bdda52b2e3876b14dc98.setContent(html_f4726e4f86ac7f77c151cfaccb9e9c54);
+            
+        
+
+        marker_e294a895e90026c9a44016ad6352fdf5.bindPopup(popup_94a032f4df51bdda52b2e3876b14dc98)
+        ;
+
+        
+    
+    
+            marker_e294a895e90026c9a44016ad6352fdf5.bindTooltip(
+                `<div>
+                     Università degli Studi di Trieste
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f2097e93524969767dc14793b63e803e = L.marker(
+                [44.8, 10.33],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_a856c220b0242b9b8e9096585b01a4af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "location-pin-slash", "iconColor": "white", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_f2097e93524969767dc14793b63e803e.setIcon(icon_a856c220b0242b9b8e9096585b01a4af);
+        
+    
+        var popup_6c86ab0247d771bcfd2fda307b1c6bd0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a883d64753fd5d2462c6a4e3a3138e37 = $(`<div id="html_a883d64753fd5d2462c6a4e3a3138e37" style="width: 100.0%; height: 100.0%;">unipr</div>`)[0];
+                popup_6c86ab0247d771bcfd2fda307b1c6bd0.setContent(html_a883d64753fd5d2462c6a4e3a3138e37);
+            
+        
+
+        marker_f2097e93524969767dc14793b63e803e.bindPopup(popup_6c86ab0247d771bcfd2fda307b1c6bd0)
+        ;
+
+        
+    
+    
+            marker_f2097e93524969767dc14793b63e803e.bindTooltip(
+                `<div>
+                     Università degli Studi di Parma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2d428cbc183927d1e11c2a0338b61e60 = L.marker(
+                [44.65, 10.93],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_5912fcc4bfae3bc44ac2127838eb00a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_2d428cbc183927d1e11c2a0338b61e60.setIcon(icon_5912fcc4bfae3bc44ac2127838eb00a3);
+        
+    
+        var popup_2019321015fdd488ddf5999297b7c4bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1385005c29d8e4e915e83f82e4cd988b = $(`<div id="html_1385005c29d8e4e915e83f82e4cd988b" style="width: 100.0%; height: 100.0%;">unimore</div>`)[0];
+                popup_2019321015fdd488ddf5999297b7c4bd.setContent(html_1385005c29d8e4e915e83f82e4cd988b);
+            
+        
+
+        marker_2d428cbc183927d1e11c2a0338b61e60.bindPopup(popup_2019321015fdd488ddf5999297b7c4bd)
+        ;
+
+        
+    
+    
+            marker_2d428cbc183927d1e11c2a0338b61e60.bindTooltip(
+                `<div>
+                     Università degli Studi di Modena e Reggio Emilia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_10b5a4c57e79cc40c202737689e21fcb = L.marker(
+                [44.49, 11.35],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_0dc70489b6d2cea5fd73e20830e09943 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_10b5a4c57e79cc40c202737689e21fcb.setIcon(icon_0dc70489b6d2cea5fd73e20830e09943);
+        
+    
+        var popup_d31ff7680b009745b3854b44745fe20e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4708c365eb6b13b3c643df4cd78e939 = $(`<div id="html_f4708c365eb6b13b3c643df4cd78e939" style="width: 100.0%; height: 100.0%;">unibo</div>`)[0];
+                popup_d31ff7680b009745b3854b44745fe20e.setContent(html_f4708c365eb6b13b3c643df4cd78e939);
+            
+        
+
+        marker_10b5a4c57e79cc40c202737689e21fcb.bindPopup(popup_d31ff7680b009745b3854b44745fe20e)
+        ;
+
+        
+    
+    
+            marker_10b5a4c57e79cc40c202737689e21fcb.bindTooltip(
+                `<div>
+                     Università degli Studi di Bologna
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0f0d4b2bd9ae37768f24dd065e4ed1f2 = L.marker(
+                [44.84, 11.62],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_ddde982cce30bdf727130bf7346e38bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_0f0d4b2bd9ae37768f24dd065e4ed1f2.setIcon(icon_ddde982cce30bdf727130bf7346e38bb);
+        
+    
+        var popup_025a9795e37ed3180e5d615ff23ee666 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28b58ae23acfc8fd8367a13488f4aa09 = $(`<div id="html_28b58ae23acfc8fd8367a13488f4aa09" style="width: 100.0%; height: 100.0%;">unife</div>`)[0];
+                popup_025a9795e37ed3180e5d615ff23ee666.setContent(html_28b58ae23acfc8fd8367a13488f4aa09);
+            
+        
+
+        marker_0f0d4b2bd9ae37768f24dd065e4ed1f2.bindPopup(popup_025a9795e37ed3180e5d615ff23ee666)
+        ;
+
+        
+    
+    
+            marker_0f0d4b2bd9ae37768f24dd065e4ed1f2.bindTooltip(
+                `<div>
+                     Università degli Studi di Ferrara
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_80967d22d171b416e93fd4c63e892e36 = L.marker(
+                [43.73, 12.64],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_dfefbcb9854e702cecae57518eb1ea3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_80967d22d171b416e93fd4c63e892e36.setIcon(icon_dfefbcb9854e702cecae57518eb1ea3c);
+        
+    
+        var popup_4ac02877d7f85ae6d26812260272605c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49692027f62a43f98fb17dd07c134db6 = $(`<div id="html_49692027f62a43f98fb17dd07c134db6" style="width: 100.0%; height: 100.0%;">uniurb</div>`)[0];
+                popup_4ac02877d7f85ae6d26812260272605c.setContent(html_49692027f62a43f98fb17dd07c134db6);
+            
+        
+
+        marker_80967d22d171b416e93fd4c63e892e36.bindPopup(popup_4ac02877d7f85ae6d26812260272605c)
+        ;
+
+        
+    
+    
+            marker_80967d22d171b416e93fd4c63e892e36.bindTooltip(
+                `<div>
+                     Università degli studi "Carlo Bo" di Urbino
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f30abd2454cd98822a03f79a33e8666a = L.marker(
+                [43.37, 13.31],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_f27a06417879640138e39cafd4012031 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_f30abd2454cd98822a03f79a33e8666a.setIcon(icon_f27a06417879640138e39cafd4012031);
+        
+    
+        var popup_38eae819247cbf08ac5f8f4f6dd1d6a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b402d0ad42683bb989dff476f533ba03 = $(`<div id="html_b402d0ad42683bb989dff476f533ba03" style="width: 100.0%; height: 100.0%;">univpm</div>`)[0];
+                popup_38eae819247cbf08ac5f8f4f6dd1d6a4.setContent(html_b402d0ad42683bb989dff476f533ba03);
+            
+        
+
+        marker_f30abd2454cd98822a03f79a33e8666a.bindPopup(popup_38eae819247cbf08ac5f8f4f6dd1d6a4)
+        ;
+
+        
+    
+    
+            marker_f30abd2454cd98822a03f79a33e8666a.bindTooltip(
+                `<div>
+                     Università Politecnica delle Marche - Ancona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_33339924b074d746d5da2deb2b7921cd = L.marker(
+                [43.18, 13.27],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_503105b29bb20edfff178d9e56d48f3e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_33339924b074d746d5da2deb2b7921cd.setIcon(icon_503105b29bb20edfff178d9e56d48f3e);
+        
+    
+        var popup_f5d976ff3d1312200b89d4b5130036b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a76c96b5f98ccc4d9dfaa0ce24f1c76 = $(`<div id="html_6a76c96b5f98ccc4d9dfaa0ce24f1c76" style="width: 100.0%; height: 100.0%;">unimc</div>`)[0];
+                popup_f5d976ff3d1312200b89d4b5130036b5.setContent(html_6a76c96b5f98ccc4d9dfaa0ce24f1c76);
+            
+        
+
+        marker_33339924b074d746d5da2deb2b7921cd.bindPopup(popup_f5d976ff3d1312200b89d4b5130036b5)
+        ;
+
+        
+    
+    
+            marker_33339924b074d746d5da2deb2b7921cd.bindTooltip(
+                `<div>
+                     Università degli Studi di Macerata
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6ca693a7e772cf0bce4bb90f70cbb448 = L.marker(
+                [43.14, 13.07],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_57c2bc20e8edf136395869ea9676b3e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_6ca693a7e772cf0bce4bb90f70cbb448.setIcon(icon_57c2bc20e8edf136395869ea9676b3e0);
+        
+    
+        var popup_be8225889886c44cda094349b36e1f2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36f5924e5141ce93e5391a7679737b51 = $(`<div id="html_36f5924e5141ce93e5391a7679737b51" style="width: 100.0%; height: 100.0%;">unicam</div>`)[0];
+                popup_be8225889886c44cda094349b36e1f2e.setContent(html_36f5924e5141ce93e5391a7679737b51);
+            
+        
+
+        marker_6ca693a7e772cf0bce4bb90f70cbb448.bindPopup(popup_be8225889886c44cda094349b36e1f2e)
+        ;
+
+        
+    
+    
+            marker_6ca693a7e772cf0bce4bb90f70cbb448.bindTooltip(
+                `<div>
+                     Università degli Studi di Camerino
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2d7bb5224ee5966df57ccda664c242b6 = L.marker(
+                [43.46, 11.15],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_365f5677541b12dbe2637b6e3570986b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_2d7bb5224ee5966df57ccda664c242b6.setIcon(icon_365f5677541b12dbe2637b6e3570986b);
+        
+    
+        var popup_af536e5af2cd8a0a3f4e8349203a9bab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6d2c388302f3c9d3cb609501de1b3fb = $(`<div id="html_d6d2c388302f3c9d3cb609501de1b3fb" style="width: 100.0%; height: 100.0%;">unifi</div>`)[0];
+                popup_af536e5af2cd8a0a3f4e8349203a9bab.setContent(html_d6d2c388302f3c9d3cb609501de1b3fb);
+            
+        
+
+        marker_2d7bb5224ee5966df57ccda664c242b6.bindPopup(popup_af536e5af2cd8a0a3f4e8349203a9bab)
+        ;
+
+        
+    
+    
+            marker_2d7bb5224ee5966df57ccda664c242b6.bindTooltip(
+                `<div>
+                     Università degli Studi di Firenze
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_16c83717f19cd786e7beb304ed76258b = L.marker(
+                [43.43, 10.23],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_19357efd9973e5a4fa4dcec5b8694a89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_16c83717f19cd786e7beb304ed76258b.setIcon(icon_19357efd9973e5a4fa4dcec5b8694a89);
+        
+    
+        var popup_7994aa0cdc0464a5fb66ccda21af6adc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61b9b4583eac48a945450ef2552a0e54 = $(`<div id="html_61b9b4583eac48a945450ef2552a0e54" style="width: 100.0%; height: 100.0%;">unipi</div>`)[0];
+                popup_7994aa0cdc0464a5fb66ccda21af6adc.setContent(html_61b9b4583eac48a945450ef2552a0e54);
+            
+        
+
+        marker_16c83717f19cd786e7beb304ed76258b.bindPopup(popup_7994aa0cdc0464a5fb66ccda21af6adc)
+        ;
+
+        
+    
+    
+            marker_16c83717f19cd786e7beb304ed76258b.bindTooltip(
+                `<div>
+                     Università degli Studi di Pisa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d5fc3d2d3ba9ec790b9a0c3c71c51bb7 = L.marker(
+                [43.21, 11.2],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_6c74d6538d3f327c59b0de86f7ee068b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_d5fc3d2d3ba9ec790b9a0c3c71c51bb7.setIcon(icon_6c74d6538d3f327c59b0de86f7ee068b);
+        
+    
+        var popup_2fce4ccaeae99d22961f96d11466b26e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76e97b1f7a68ef0ab1fe897fb4d4530c = $(`<div id="html_76e97b1f7a68ef0ab1fe897fb4d4530c" style="width: 100.0%; height: 100.0%;">unisi</div>`)[0];
+                popup_2fce4ccaeae99d22961f96d11466b26e.setContent(html_76e97b1f7a68ef0ab1fe897fb4d4530c);
+            
+        
+
+        marker_d5fc3d2d3ba9ec790b9a0c3c71c51bb7.bindPopup(popup_2fce4ccaeae99d22961f96d11466b26e)
+        ;
+
+        
+    
+    
+            marker_d5fc3d2d3ba9ec790b9a0c3c71c51bb7.bindTooltip(
+                `<div>
+                     Università degli Studi di Siena
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e63ac016ccd52906e4460a4e5e86fbb0 = L.marker(
+                [43.19, 11.2],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_18a8ba6d44a37a730d784a48cc89703d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "location-pin-slash", "iconColor": "white", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_e63ac016ccd52906e4460a4e5e86fbb0.setIcon(icon_18a8ba6d44a37a730d784a48cc89703d);
+        
+    
+        var popup_ee9afb58ec9e35df1c982208832ed393 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d91e19de168d597705f71ec6dccc8786 = $(`<div id="html_d91e19de168d597705f71ec6dccc8786" style="width: 100.0%; height: 100.0%;">unistrasi</div>`)[0];
+                popup_ee9afb58ec9e35df1c982208832ed393.setContent(html_d91e19de168d597705f71ec6dccc8786);
+            
+        
+
+        marker_e63ac016ccd52906e4460a4e5e86fbb0.bindPopup(popup_ee9afb58ec9e35df1c982208832ed393)
+        ;
+
+        
+    
+    
+            marker_e63ac016ccd52906e4460a4e5e86fbb0.bindTooltip(
+                `<div>
+                     Università per stranieri di Siena
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b03cb40c15a3d6683504d6ff5b638b2e = L.marker(
+                [43.08, 12.23],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_e9caafc21664127827110300e38ad649 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_b03cb40c15a3d6683504d6ff5b638b2e.setIcon(icon_e9caafc21664127827110300e38ad649);
+        
+    
+        var popup_4828a39490b6dd4553bcbb580d9dc423 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_903e405cd30bbcfb2a933f31d561122d = $(`<div id="html_903e405cd30bbcfb2a933f31d561122d" style="width: 100.0%; height: 100.0%;">unipg</div>`)[0];
+                popup_4828a39490b6dd4553bcbb580d9dc423.setContent(html_903e405cd30bbcfb2a933f31d561122d);
+            
+        
+
+        marker_b03cb40c15a3d6683504d6ff5b638b2e.bindPopup(popup_4828a39490b6dd4553bcbb580d9dc423)
+        ;
+
+        
+    
+    
+            marker_b03cb40c15a3d6683504d6ff5b638b2e.bindTooltip(
+                `<div>
+                     Università degli Studi di Perugia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_07acb3859dfbe79aa9f2cd6832205b48 = L.marker(
+                [43.06, 12.23],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_499709dc91984eb6727bc3d41fe0f5d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_07acb3859dfbe79aa9f2cd6832205b48.setIcon(icon_499709dc91984eb6727bc3d41fe0f5d7);
+        
+    
+        var popup_8a3478e39b66db8c0934302db5ac17ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7731d2eb04d96c32ed286f2e080ca1cd = $(`<div id="html_7731d2eb04d96c32ed286f2e080ca1cd" style="width: 100.0%; height: 100.0%;">unistrapg</div>`)[0];
+                popup_8a3478e39b66db8c0934302db5ac17ca.setContent(html_7731d2eb04d96c32ed286f2e080ca1cd);
+            
+        
+
+        marker_07acb3859dfbe79aa9f2cd6832205b48.bindPopup(popup_8a3478e39b66db8c0934302db5ac17ca)
+        ;
+
+        
+    
+    
+            marker_07acb3859dfbe79aa9f2cd6832205b48.bindTooltip(
+                `<div>
+                     Università per stranieri di Perugia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7201d34f9923d17a727494cc1d364c41 = L.marker(
+                [42.25, 12.06],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_86b814d010a5a8d7e2b4e67656669684 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_7201d34f9923d17a727494cc1d364c41.setIcon(icon_86b814d010a5a8d7e2b4e67656669684);
+        
+    
+        var popup_e9e7fd6c6c9b1151358f95bb62124b16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cefa8e7e45801850cb7140e76941c22c = $(`<div id="html_cefa8e7e45801850cb7140e76941c22c" style="width: 100.0%; height: 100.0%;">unitus</div>`)[0];
+                popup_e9e7fd6c6c9b1151358f95bb62124b16.setContent(html_cefa8e7e45801850cb7140e76941c22c);
+            
+        
+
+        marker_7201d34f9923d17a727494cc1d364c41.bindPopup(popup_e9e7fd6c6c9b1151358f95bb62124b16)
+        ;
+
+        
+    
+    
+            marker_7201d34f9923d17a727494cc1d364c41.bindTooltip(
+                `<div>
+                     Università degli Studi della Tuscia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_76152e952d2934deadd1823de6aace73 = L.marker(
+                [41.54, 12.29],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_456658b8ea72f92cd47fba8b97c0506f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_76152e952d2934deadd1823de6aace73.setIcon(icon_456658b8ea72f92cd47fba8b97c0506f);
+        
+    
+        var popup_5f3cd4f0b4a9774fc94fe39acc224dcc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a7679d49b6dae878d94951d0ae367de = $(`<div id="html_0a7679d49b6dae878d94951d0ae367de" style="width: 100.0%; height: 100.0%;">uniroma1</div>`)[0];
+                popup_5f3cd4f0b4a9774fc94fe39acc224dcc.setContent(html_0a7679d49b6dae878d94951d0ae367de);
+            
+        
+
+        marker_76152e952d2934deadd1823de6aace73.bindPopup(popup_5f3cd4f0b4a9774fc94fe39acc224dcc)
+        ;
+
+        
+    
+    
+            marker_76152e952d2934deadd1823de6aace73.bindTooltip(
+                `<div>
+                     Università degli studi di Roma La Sapienza
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0abee527ed5c2692a91853b9082cf3e5 = L.marker(
+                [41.55, 12.29],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_e783825f9addd95a8b31b7e88ff8b693 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_0abee527ed5c2692a91853b9082cf3e5.setIcon(icon_e783825f9addd95a8b31b7e88ff8b693);
+        
+    
+        var popup_83c3b22d375cfd623931ac624eba44e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19ddff1ea1b64ab3e3e89ebc82bfa3ae = $(`<div id="html_19ddff1ea1b64ab3e3e89ebc82bfa3ae" style="width: 100.0%; height: 100.0%;">uniroma2</div>`)[0];
+                popup_83c3b22d375cfd623931ac624eba44e7.setContent(html_19ddff1ea1b64ab3e3e89ebc82bfa3ae);
+            
+        
+
+        marker_0abee527ed5c2692a91853b9082cf3e5.bindPopup(popup_83c3b22d375cfd623931ac624eba44e7)
+        ;
+
+        
+    
+    
+            marker_0abee527ed5c2692a91853b9082cf3e5.bindTooltip(
+                `<div>
+                     Università degli Studi di Roma Tor Vergata
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_be7847aef47a8d5d21b6956c38d0b4b2 = L.marker(
+                [41.56, 12.29],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_d652d878562c81f1a6d5c91c0e5306c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "location-pin-slash", "iconColor": "white", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_be7847aef47a8d5d21b6956c38d0b4b2.setIcon(icon_d652d878562c81f1a6d5c91c0e5306c7);
+        
+    
+        var popup_d4d7de83a89f22a96713813d9e59eb8a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5cf09bbc274a2b6cd922bf5ef002db8d = $(`<div id="html_5cf09bbc274a2b6cd922bf5ef002db8d" style="width: 100.0%; height: 100.0%;">uniroma4</div>`)[0];
+                popup_d4d7de83a89f22a96713813d9e59eb8a.setContent(html_5cf09bbc274a2b6cd922bf5ef002db8d);
+            
+        
+
+        marker_be7847aef47a8d5d21b6956c38d0b4b2.bindPopup(popup_d4d7de83a89f22a96713813d9e59eb8a)
+        ;
+
+        
+    
+    
+            marker_be7847aef47a8d5d21b6956c38d0b4b2.bindTooltip(
+                `<div>
+                     Università degli studi di Roma "Foro Italico"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9248969bb7f5e297a47882253c8bd99d = L.marker(
+                [41.57, 12.29],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_037b19cf66a6a9d02d134b433e949f2f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_9248969bb7f5e297a47882253c8bd99d.setIcon(icon_037b19cf66a6a9d02d134b433e949f2f);
+        
+    
+        var popup_9040e8281267156f3d17a29ab85122cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7455b6a03e9c5fcac3d3c4a75c7d5641 = $(`<div id="html_7455b6a03e9c5fcac3d3c4a75c7d5641" style="width: 100.0%; height: 100.0%;">uniroma3</div>`)[0];
+                popup_9040e8281267156f3d17a29ab85122cc.setContent(html_7455b6a03e9c5fcac3d3c4a75c7d5641);
+            
+        
+
+        marker_9248969bb7f5e297a47882253c8bd99d.bindPopup(popup_9040e8281267156f3d17a29ab85122cc)
+        ;
+
+        
+    
+    
+            marker_9248969bb7f5e297a47882253c8bd99d.bindTooltip(
+                `<div>
+                     Università degli Studi Roma Tre
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bae0c79bbd1cff0c28ef1da897a761af = L.marker(
+                [41.29, 13.49],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_0d53a3aed82d7fec146c70f165662360 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_bae0c79bbd1cff0c28ef1da897a761af.setIcon(icon_0d53a3aed82d7fec146c70f165662360);
+        
+    
+        var popup_1a6a82989f4edaa3849c3626799f0bd8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_314f21c6f1fac261e2a2bd9f7a202e29 = $(`<div id="html_314f21c6f1fac261e2a2bd9f7a202e29" style="width: 100.0%; height: 100.0%;">unicas</div>`)[0];
+                popup_1a6a82989f4edaa3849c3626799f0bd8.setContent(html_314f21c6f1fac261e2a2bd9f7a202e29);
+            
+        
+
+        marker_bae0c79bbd1cff0c28ef1da897a761af.bindPopup(popup_1a6a82989f4edaa3849c3626799f0bd8)
+        ;
+
+        
+    
+    
+            marker_bae0c79bbd1cff0c28ef1da897a761af.bindTooltip(
+                `<div>
+                     Università degli Studi di Cassino e del Lazio Meridionale
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a50099b376c37f02520cb6b4ca5e8ab0 = L.marker(
+                [41.08, 14.47],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_d7a3ad1191af9dc640d8fb85ecae83b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "location-pin-slash", "iconColor": "white", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_a50099b376c37f02520cb6b4ca5e8ab0.setIcon(icon_d7a3ad1191af9dc640d8fb85ecae83b3);
+        
+    
+        var popup_ab402e29a03fde6cf8207cc447232db6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b625d64bf1f80bc1488a1174f0bdd39 = $(`<div id="html_9b625d64bf1f80bc1488a1174f0bdd39" style="width: 100.0%; height: 100.0%;">unisannio</div>`)[0];
+                popup_ab402e29a03fde6cf8207cc447232db6.setContent(html_9b625d64bf1f80bc1488a1174f0bdd39);
+            
+        
+
+        marker_a50099b376c37f02520cb6b4ca5e8ab0.bindPopup(popup_ab402e29a03fde6cf8207cc447232db6)
+        ;
+
+        
+    
+    
+            marker_a50099b376c37f02520cb6b4ca5e8ab0.bindTooltip(
+                `<div>
+                     Università degli Studi del Sannio
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f4813ed33ad3d61cf3689fd3c569d574 = L.marker(
+                [40.51, 14.15],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_aa71d1b1b708d37ff9c535c0b520f50d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "location-pin-slash", "iconColor": "white", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_f4813ed33ad3d61cf3689fd3c569d574.setIcon(icon_aa71d1b1b708d37ff9c535c0b520f50d);
+        
+    
+        var popup_9a02e1ab2f58ec247eda08ed4c9a369b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d18aeb7e7b36aa4c7c0b311eff660ea3 = $(`<div id="html_d18aeb7e7b36aa4c7c0b311eff660ea3" style="width: 100.0%; height: 100.0%;">unina</div>`)[0];
+                popup_9a02e1ab2f58ec247eda08ed4c9a369b.setContent(html_d18aeb7e7b36aa4c7c0b311eff660ea3);
+            
+        
+
+        marker_f4813ed33ad3d61cf3689fd3c569d574.bindPopup(popup_9a02e1ab2f58ec247eda08ed4c9a369b)
+        ;
+
+        
+    
+    
+            marker_f4813ed33ad3d61cf3689fd3c569d574.bindTooltip(
+                `<div>
+                     Università degli studi di Napoli Federico II
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7fac3f73ac5228a25d00d49b07dedf1a = L.marker(
+                [40.5, 14.15],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_d75188315b76d703d4c4f46bbebb78a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "location-pin-slash", "iconColor": "white", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_7fac3f73ac5228a25d00d49b07dedf1a.setIcon(icon_d75188315b76d703d4c4f46bbebb78a2);
+        
+    
+        var popup_031dda9defd9c4500e54ad6ec5b94dea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75eacb1d9f1afc141baf9f3bf59355ef = $(`<div id="html_75eacb1d9f1afc141baf9f3bf59355ef" style="width: 100.0%; height: 100.0%;">uniparthenope</div>`)[0];
+                popup_031dda9defd9c4500e54ad6ec5b94dea.setContent(html_75eacb1d9f1afc141baf9f3bf59355ef);
+            
+        
+
+        marker_7fac3f73ac5228a25d00d49b07dedf1a.bindPopup(popup_031dda9defd9c4500e54ad6ec5b94dea)
+        ;
+
+        
+    
+    
+            marker_7fac3f73ac5228a25d00d49b07dedf1a.bindTooltip(
+                `<div>
+                     Università degli Studi di Napoli - Parthenope
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9782d4312c88290cb66266ed47345149 = L.marker(
+                [40.53, 14.15],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_e3ad70f94b09835941cca5a83f279087 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "location-pin-slash", "iconColor": "white", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_9782d4312c88290cb66266ed47345149.setIcon(icon_e3ad70f94b09835941cca5a83f279087);
+        
+    
+        var popup_7f72e399ae2d6da2fef50b783a854394 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3944b1684888fceed35d8e9dcdc3afd0 = $(`<div id="html_3944b1684888fceed35d8e9dcdc3afd0" style="width: 100.0%; height: 100.0%;">unior</div>`)[0];
+                popup_7f72e399ae2d6da2fef50b783a854394.setContent(html_3944b1684888fceed35d8e9dcdc3afd0);
+            
+        
+
+        marker_9782d4312c88290cb66266ed47345149.bindPopup(popup_7f72e399ae2d6da2fef50b783a854394)
+        ;
+
+        
+    
+    
+            marker_9782d4312c88290cb66266ed47345149.bindTooltip(
+                `<div>
+                     Università degli studi L'Orientale di Napoli
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a3bf0b726e2932886fa6bda23eb72118 = L.marker(
+                [41.04, 14.19],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_6e00e883a7e7b3a7e85f447237e49300 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_a3bf0b726e2932886fa6bda23eb72118.setIcon(icon_6e00e883a7e7b3a7e85f447237e49300);
+        
+    
+        var popup_79061aafdf44688de395c463e3c73503 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d45a28576cda5d71e30fa2485161903d = $(`<div id="html_d45a28576cda5d71e30fa2485161903d" style="width: 100.0%; height: 100.0%;">unicampania</div>`)[0];
+                popup_79061aafdf44688de395c463e3c73503.setContent(html_d45a28576cda5d71e30fa2485161903d);
+            
+        
+
+        marker_a3bf0b726e2932886fa6bda23eb72118.bindPopup(popup_79061aafdf44688de395c463e3c73503)
+        ;
+
+        
+    
+    
+            marker_a3bf0b726e2932886fa6bda23eb72118.bindTooltip(
+                `<div>
+                     Università degli studi della Campania "Luigi Vanvitelli"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_14e6a589e426de3032c7f35e6dbb0dbb = L.marker(
+                [40.4, 14.47],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_4297003e2228661df9136b2f0919fc18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_14e6a589e426de3032c7f35e6dbb0dbb.setIcon(icon_4297003e2228661df9136b2f0919fc18);
+        
+    
+        var popup_8e5b2a418807a01db9c2961c55ba40fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69f490601aef346221f3e7f8dae993f5 = $(`<div id="html_69f490601aef346221f3e7f8dae993f5" style="width: 100.0%; height: 100.0%;">unisa</div>`)[0];
+                popup_8e5b2a418807a01db9c2961c55ba40fd.setContent(html_69f490601aef346221f3e7f8dae993f5);
+            
+        
+
+        marker_14e6a589e426de3032c7f35e6dbb0dbb.bindPopup(popup_8e5b2a418807a01db9c2961c55ba40fd)
+        ;
+
+        
+    
+    
+            marker_14e6a589e426de3032c7f35e6dbb0dbb.bindTooltip(
+                `<div>
+                     Università degli Studi di Salerno
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_022ed5848f7b2f5a2bccdf9b37765955 = L.marker(
+                [42.21, 13.24],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_df2500a3a79a968968617f6b7df50cf1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_022ed5848f7b2f5a2bccdf9b37765955.setIcon(icon_df2500a3a79a968968617f6b7df50cf1);
+        
+    
+        var popup_122c28444e40f5c658ffcf0c67d1bfb2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d3e2534902e10261839d878fb5f96b0 = $(`<div id="html_1d3e2534902e10261839d878fb5f96b0" style="width: 100.0%; height: 100.0%;">univaq</div>`)[0];
+                popup_122c28444e40f5c658ffcf0c67d1bfb2.setContent(html_1d3e2534902e10261839d878fb5f96b0);
+            
+        
+
+        marker_022ed5848f7b2f5a2bccdf9b37765955.bindPopup(popup_122c28444e40f5c658ffcf0c67d1bfb2)
+        ;
+
+        
+    
+    
+            marker_022ed5848f7b2f5a2bccdf9b37765955.bindTooltip(
+                `<div>
+                     Università degli studi di L'Aquila
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6dd6b2aeed80790c8bdb7aecde06e94f = L.marker(
+                [42.39, 13.42],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_a29e2d4f862ec57d6589f4917a92cc33 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "location-pin-slash", "iconColor": "white", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_6dd6b2aeed80790c8bdb7aecde06e94f.setIcon(icon_a29e2d4f862ec57d6589f4917a92cc33);
+        
+    
+        var popup_325e4e933176645e6658ce734fea37ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_837730af0e79b7df1163ee8210365df2 = $(`<div id="html_837730af0e79b7df1163ee8210365df2" style="width: 100.0%; height: 100.0%;">unite</div>`)[0];
+                popup_325e4e933176645e6658ce734fea37ca.setContent(html_837730af0e79b7df1163ee8210365df2);
+            
+        
+
+        marker_6dd6b2aeed80790c8bdb7aecde06e94f.bindPopup(popup_325e4e933176645e6658ce734fea37ca)
+        ;
+
+        
+    
+    
+            marker_6dd6b2aeed80790c8bdb7aecde06e94f.bindTooltip(
+                `<div>
+                     Università degli Studi di Teramo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ae02601dbdb0176011d1e489f1d5d929 = L.marker(
+                [42.21, 14.1],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_32e790e8076a5a043301f10a12e105a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_ae02601dbdb0176011d1e489f1d5d929.setIcon(icon_32e790e8076a5a043301f10a12e105a2);
+        
+    
+        var popup_fee6c662acd392087760712c236fa51f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be52ae915972bd729b223af96666fb99 = $(`<div id="html_be52ae915972bd729b223af96666fb99" style="width: 100.0%; height: 100.0%;">unich</div>`)[0];
+                popup_fee6c662acd392087760712c236fa51f.setContent(html_be52ae915972bd729b223af96666fb99);
+            
+        
+
+        marker_ae02601dbdb0176011d1e489f1d5d929.bindPopup(popup_fee6c662acd392087760712c236fa51f)
+        ;
+
+        
+    
+    
+            marker_ae02601dbdb0176011d1e489f1d5d929.bindTooltip(
+                `<div>
+                     Università degli studi Gabriele D'Annunzio di Chieti e Pescara
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_736e107d8e9ce7482fafddee9b28e6a7 = L.marker(
+                [41.34, 14.4],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_ddec1c256dd63bde5cb1e0d685487a93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_736e107d8e9ce7482fafddee9b28e6a7.setIcon(icon_ddec1c256dd63bde5cb1e0d685487a93);
+        
+    
+        var popup_8771523e33a9d1cce497ae6cbbc47653 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc5fc8120f526bb41734cf0f147f7e4b = $(`<div id="html_bc5fc8120f526bb41734cf0f147f7e4b" style="width: 100.0%; height: 100.0%;">unimol</div>`)[0];
+                popup_8771523e33a9d1cce497ae6cbbc47653.setContent(html_bc5fc8120f526bb41734cf0f147f7e4b);
+            
+        
+
+        marker_736e107d8e9ce7482fafddee9b28e6a7.bindPopup(popup_8771523e33a9d1cce497ae6cbbc47653)
+        ;
+
+        
+    
+    
+            marker_736e107d8e9ce7482fafddee9b28e6a7.bindTooltip(
+                `<div>
+                     Università degli Studi del Molise
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28a76cd63f5d68222421783dd286e12f = L.marker(
+                [41.27, 15.33],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_73b05511fba39775c779a55d61808f71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_28a76cd63f5d68222421783dd286e12f.setIcon(icon_73b05511fba39775c779a55d61808f71);
+        
+    
+        var popup_5ad636854601015c6a319d76b06eefc1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4eea538e07cf5bd2c4213f4fea31889c = $(`<div id="html_4eea538e07cf5bd2c4213f4fea31889c" style="width: 100.0%; height: 100.0%;">unifg</div>`)[0];
+                popup_5ad636854601015c6a319d76b06eefc1.setContent(html_4eea538e07cf5bd2c4213f4fea31889c);
+            
+        
+
+        marker_28a76cd63f5d68222421783dd286e12f.bindPopup(popup_5ad636854601015c6a319d76b06eefc1)
+        ;
+
+        
+    
+    
+            marker_28a76cd63f5d68222421783dd286e12f.bindTooltip(
+                `<div>
+                     Università degli Studi di Foggia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_971a295492121e4b2e69513ef4be5c84 = L.marker(
+                [41.07, 16.52],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_4f9cbbce0abc49d51653b43e1b2dc19e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_971a295492121e4b2e69513ef4be5c84.setIcon(icon_4f9cbbce0abc49d51653b43e1b2dc19e);
+        
+    
+        var popup_fe96f97306e0d9c621b5ccc651b4a51a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55f02f5c8d45bc4d8af4f4769ee2a9b5 = $(`<div id="html_55f02f5c8d45bc4d8af4f4769ee2a9b5" style="width: 100.0%; height: 100.0%;">uniba</div>`)[0];
+                popup_fe96f97306e0d9c621b5ccc651b4a51a.setContent(html_55f02f5c8d45bc4d8af4f4769ee2a9b5);
+            
+        
+
+        marker_971a295492121e4b2e69513ef4be5c84.bindPopup(popup_fe96f97306e0d9c621b5ccc651b4a51a)
+        ;
+
+        
+    
+    
+            marker_971a295492121e4b2e69513ef4be5c84.bindTooltip(
+                `<div>
+                     Università degli Studi di Bari
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7680426e10130e01202b446155ad0c2f = L.marker(
+                [41.1, 16.52],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_55017fea6f1d893e705f9bf9d0bf1daa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_7680426e10130e01202b446155ad0c2f.setIcon(icon_55017fea6f1d893e705f9bf9d0bf1daa);
+        
+    
+        var popup_7cbf1732fb7fbc232a4c5988bfa6fdd8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_adc59ee681d38f0b3ca56721294eecea = $(`<div id="html_adc59ee681d38f0b3ca56721294eecea" style="width: 100.0%; height: 100.0%;">poliba</div>`)[0];
+                popup_7cbf1732fb7fbc232a4c5988bfa6fdd8.setContent(html_adc59ee681d38f0b3ca56721294eecea);
+            
+        
+
+        marker_7680426e10130e01202b446155ad0c2f.bindPopup(popup_7cbf1732fb7fbc232a4c5988bfa6fdd8)
+        ;
+
+        
+    
+    
+            marker_7680426e10130e01202b446155ad0c2f.bindTooltip(
+                `<div>
+                     Politecnico di Bari
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c547cda17ec5c69621c3987dcfc0e2cf = L.marker(
+                [40.21, 18.1],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_62a04404fd1965a6aeabb786fac97509 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_c547cda17ec5c69621c3987dcfc0e2cf.setIcon(icon_62a04404fd1965a6aeabb786fac97509);
+        
+    
+        var popup_0602f8cbf822dcc63a66e6d66a96a198 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e29c386fab4acf8859f74fc05c93edff = $(`<div id="html_e29c386fab4acf8859f74fc05c93edff" style="width: 100.0%; height: 100.0%;">unisalento</div>`)[0];
+                popup_0602f8cbf822dcc63a66e6d66a96a198.setContent(html_e29c386fab4acf8859f74fc05c93edff);
+            
+        
+
+        marker_c547cda17ec5c69621c3987dcfc0e2cf.bindPopup(popup_0602f8cbf822dcc63a66e6d66a96a198)
+        ;
+
+        
+    
+    
+            marker_c547cda17ec5c69621c3987dcfc0e2cf.bindTooltip(
+                `<div>
+                     Università del Salento
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8ac91f70df48faf0d4f2818c0242ad15 = L.marker(
+                [40.38, 15.48],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_3b3e98d49da9329ac276cd614c4d65ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "location-pin-slash", "iconColor": "white", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_8ac91f70df48faf0d4f2818c0242ad15.setIcon(icon_3b3e98d49da9329ac276cd614c4d65ea);
+        
+    
+        var popup_57d0f9c4f623a0a38f13dfa0311fff36 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_485243d2933eb6b63f69bfc40bdeb9c0 = $(`<div id="html_485243d2933eb6b63f69bfc40bdeb9c0" style="width: 100.0%; height: 100.0%;">unibas</div>`)[0];
+                popup_57d0f9c4f623a0a38f13dfa0311fff36.setContent(html_485243d2933eb6b63f69bfc40bdeb9c0);
+            
+        
+
+        marker_8ac91f70df48faf0d4f2818c0242ad15.bindPopup(popup_57d0f9c4f623a0a38f13dfa0311fff36)
+        ;
+
+        
+    
+    
+            marker_8ac91f70df48faf0d4f2818c0242ad15.bindTooltip(
+                `<div>
+                     Università degli studi della Basilicata
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0287957c49f5ccc1e4888254a8bff3f5 = L.marker(
+                [39.18, 16.15],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_bbd20514263cb1d2cbc573283d196f21 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_0287957c49f5ccc1e4888254a8bff3f5.setIcon(icon_bbd20514263cb1d2cbc573283d196f21);
+        
+    
+        var popup_3454497e39b6bb9971bac30069413739 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_981e94d1d9e20d443b202b865c09e0ee = $(`<div id="html_981e94d1d9e20d443b202b865c09e0ee" style="width: 100.0%; height: 100.0%;">unical</div>`)[0];
+                popup_3454497e39b6bb9971bac30069413739.setContent(html_981e94d1d9e20d443b202b865c09e0ee);
+            
+        
+
+        marker_0287957c49f5ccc1e4888254a8bff3f5.bindPopup(popup_3454497e39b6bb9971bac30069413739)
+        ;
+
+        
+    
+    
+            marker_0287957c49f5ccc1e4888254a8bff3f5.bindTooltip(
+                `<div>
+                     Università della Calabria
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a9324665c7c4a0ad8f0d6a433351e463 = L.marker(
+                [38.54, 16.35],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_d75a517b31ce9b0756c07ab2c00da5ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_a9324665c7c4a0ad8f0d6a433351e463.setIcon(icon_d75a517b31ce9b0756c07ab2c00da5ae);
+        
+    
+        var popup_ff1ff060d8b85875bbd9d774a54eaaaf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d1fb3923bc1f23b8bd0dabccfdb1f42 = $(`<div id="html_8d1fb3923bc1f23b8bd0dabccfdb1f42" style="width: 100.0%; height: 100.0%;">unicz</div>`)[0];
+                popup_ff1ff060d8b85875bbd9d774a54eaaaf.setContent(html_8d1fb3923bc1f23b8bd0dabccfdb1f42);
+            
+        
+
+        marker_a9324665c7c4a0ad8f0d6a433351e463.bindPopup(popup_ff1ff060d8b85875bbd9d774a54eaaaf)
+        ;
+
+        
+    
+    
+            marker_a9324665c7c4a0ad8f0d6a433351e463.bindTooltip(
+                `<div>
+                     Università degli studi di Catanzaro - Magna Grecia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_43aeb123cd832ffeb90f79d38a3ad059 = L.marker(
+                [38.06, 15.39],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_382c13713e5f37c94a0eeeb318dc866e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "location-pin-slash", "iconColor": "white", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_43aeb123cd832ffeb90f79d38a3ad059.setIcon(icon_382c13713e5f37c94a0eeeb318dc866e);
+        
+    
+        var popup_1896ee88e0f661ecce57c4cf87e76274 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a31b7ecc6c9f326079fc9eaae8a19a1f = $(`<div id="html_a31b7ecc6c9f326079fc9eaae8a19a1f" style="width: 100.0%; height: 100.0%;">unirc</div>`)[0];
+                popup_1896ee88e0f661ecce57c4cf87e76274.setContent(html_a31b7ecc6c9f326079fc9eaae8a19a1f);
+            
+        
+
+        marker_43aeb123cd832ffeb90f79d38a3ad059.bindPopup(popup_1896ee88e0f661ecce57c4cf87e76274)
+        ;
+
+        
+    
+    
+            marker_43aeb123cd832ffeb90f79d38a3ad059.bindTooltip(
+                `<div>
+                     Università degli studi Mediterranea di Reggio Calabria
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3140c20e9b674322eabe34572e386603 = L.marker(
+                [38.12, 13.37],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_5a01739020e6c5d4daf717c63d574a09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_3140c20e9b674322eabe34572e386603.setIcon(icon_5a01739020e6c5d4daf717c63d574a09);
+        
+    
+        var popup_13c0c0160a2074f7629e145d44775fa3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64207e0ca59a8db667ccbf3405fc5e7a = $(`<div id="html_64207e0ca59a8db667ccbf3405fc5e7a" style="width: 100.0%; height: 100.0%;">unipa</div>`)[0];
+                popup_13c0c0160a2074f7629e145d44775fa3.setContent(html_64207e0ca59a8db667ccbf3405fc5e7a);
+            
+        
+
+        marker_3140c20e9b674322eabe34572e386603.bindPopup(popup_13c0c0160a2074f7629e145d44775fa3)
+        ;
+
+        
+    
+    
+            marker_3140c20e9b674322eabe34572e386603.bindTooltip(
+                `<div>
+                     Università degli Studi di Palermo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b5b280a52427cf54348b4ff4141c92d9 = L.marker(
+                [38.18, 15.55],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_59a6ed2beadb09d6b215414f4e03aa50 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_b5b280a52427cf54348b4ff4141c92d9.setIcon(icon_59a6ed2beadb09d6b215414f4e03aa50);
+        
+    
+        var popup_7ed539b52234de7fd1a2f659ef1e1942 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aba8511fd53476b9a5e20df801d8c36e = $(`<div id="html_aba8511fd53476b9a5e20df801d8c36e" style="width: 100.0%; height: 100.0%;">unime</div>`)[0];
+                popup_7ed539b52234de7fd1a2f659ef1e1942.setContent(html_aba8511fd53476b9a5e20df801d8c36e);
+            
+        
+
+        marker_b5b280a52427cf54348b4ff4141c92d9.bindPopup(popup_7ed539b52234de7fd1a2f659ef1e1942)
+        ;
+
+        
+    
+    
+            marker_b5b280a52427cf54348b4ff4141c92d9.bindTooltip(
+                `<div>
+                     Università degli Studi di Messina
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_87d1a24f82fce1018caf48b66e9e2707 = L.marker(
+                [37.5, 15.09],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_29ade2752c9dc31158c2297c6d3798a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_87d1a24f82fce1018caf48b66e9e2707.setIcon(icon_29ade2752c9dc31158c2297c6d3798a3);
+        
+    
+        var popup_59a0e46eb054b0bd56ff82a1f384ee6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03049767fccace62619a677586fee600 = $(`<div id="html_03049767fccace62619a677586fee600" style="width: 100.0%; height: 100.0%;">unict</div>`)[0];
+                popup_59a0e46eb054b0bd56ff82a1f384ee6d.setContent(html_03049767fccace62619a677586fee600);
+            
+        
+
+        marker_87d1a24f82fce1018caf48b66e9e2707.bindPopup(popup_59a0e46eb054b0bd56ff82a1f384ee6d)
+        ;
+
+        
+    
+    
+            marker_87d1a24f82fce1018caf48b66e9e2707.bindTooltip(
+                `<div>
+                     Università degli Studi di Catania
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0fe9f9ee12b4f3112fc71bff04302303 = L.marker(
+                [40.73, 8.56],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_2240a366376f35822448c349428e8701 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_0fe9f9ee12b4f3112fc71bff04302303.setIcon(icon_2240a366376f35822448c349428e8701);
+        
+    
+        var popup_c17ae80f9009e4da84d440d50f1c5dd5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c00ed00df609bba36d267ff58ae818f2 = $(`<div id="html_c00ed00df609bba36d267ff58ae818f2" style="width: 100.0%; height: 100.0%;">uniss</div>`)[0];
+                popup_c17ae80f9009e4da84d440d50f1c5dd5.setContent(html_c00ed00df609bba36d267ff58ae818f2);
+            
+        
+
+        marker_0fe9f9ee12b4f3112fc71bff04302303.bindPopup(popup_c17ae80f9009e4da84d440d50f1c5dd5)
+        ;
+
+        
+    
+    
+            marker_0fe9f9ee12b4f3112fc71bff04302303.bindTooltip(
+                `<div>
+                     Università degli Studi di Sassari
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5c22f2ea4112bb28cc8dff4120a3f79f = L.marker(
+                [39.23, 9.11],
+                {}
+            ).addTo(map_746b4c4811c09da9f64ff1b270b1232d);
+        
+    
+            var icon_ac5fc1a5fe3e10191e4d543c1a9c8780 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "lock-open", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_5c22f2ea4112bb28cc8dff4120a3f79f.setIcon(icon_ac5fc1a5fe3e10191e4d543c1a9c8780);
+        
+    
+        var popup_3610e4a7136ae4ac21be5c5120dba330 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e07d94cf85cdfa35862625ce8739d386 = $(`<div id="html_e07d94cf85cdfa35862625ce8739d386" style="width: 100.0%; height: 100.0%;">unica</div>`)[0];
+                popup_3610e4a7136ae4ac21be5c5120dba330.setContent(html_e07d94cf85cdfa35862625ce8739d386);
+            
+        
+
+        marker_5c22f2ea4112bb28cc8dff4120a3f79f.bindPopup(popup_3610e4a7136ae4ac21be5c5120dba330)
+        ;
+
+        
+    
+    
+            marker_5c22f2ea4112bb28cc8dff4120a3f79f.bindTooltip(
+                `<div>
+                     Università degli Studi di Cagliari
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
