@@ -9,7 +9,8 @@ Per ogni istituzione viene definito un punteggio da 0 a 4 secondo le seguenti ca
 1. Regolamento di Ateneo su open access
 2. Pagina informativa su open access
 3. Pagina informativa su open data
-4. Data repository e Regolamento di ateneo su open data 
+4. Data repository e Regolamento di ateneo su open data
+
 I dati sono aggiornati al 24 Febbraio 2023
 
 # Rendering
