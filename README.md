@@ -4,6 +4,7 @@ Indagine su quanti e quali repository per dati provenienti dalla ricerca esiston
 # Sorgente di dati
 Il [foglio di calcolo](https://docs.google.com/spreadsheets/d/1zXCtxu0d0vwH6VSpn-wotc_zSF6c42LoOWJhC3pXewg/edit?pli=1#gid=0) contiene una indagine riguardante la presenza o meno di repository relativi ai dati della ricerca negli atenei statali italiani.
 Per ogni istituzione viene definito un punteggio da 0 a 4 secondo le seguenti caratteristiche:
+
 0. Nessuna informazione relativa all'accesso aperto ai prodotti della ricerca
 1. Regolamento di Ateneo su open access
 2. Pagina informativa su open access
